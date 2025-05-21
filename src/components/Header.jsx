@@ -24,8 +24,8 @@ function Header() {
 
     return(
         <div className="container flex text-white px-3 pt-2">
-                <img src="src/assets/logo.png" alt="Logo" className="w-[168px] h-[50px] mt-2 ms-8 hidden md:block"/>
-                <img src="src/assets/nsymbol.png" alt="Logo" className="w-[45px] h-[50px] mt-2 ms-3 block md:hidden"/>
+                <img src="./src/assets/logo.png" alt="Logo" className="w-[168px] h-[50px] mt-2 ms-8 hidden md:block"/>
+                <img src="./src/assets/nsymbol.png" alt="Logo" className="w-[45px] h-[50px] mt-2 ms-3 block md:hidden"/>
                 <div className="container flex items-center justify-end me-2 md:me-18">
                     <div className="relative group" ref={dropdownRef}>
                         <button onClick={() => setOpen(!open)} 

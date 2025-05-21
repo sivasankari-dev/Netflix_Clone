@@ -10,7 +10,7 @@ const Hero = () => {
      <div className=" text-white p-3">
 
         {/* Hero Section */}
-            <div className="relative h-140 md:mx-8 mt-1 mb-5 flex flex-col justify-center items-center rounded-3xl text-center bg-cover bg-no-repeat bg-[url('src/assets/netflixheroimage.jpg')] perspective-100 shadow-[0px_-30px_50px_rgba(255,255,255,0.1)]">
+            <div className="relative h-140 md:mx-8 mt-1 mb-5 flex flex-col justify-center items-center rounded-3xl text-center bg-cover bg-no-repeat bg-[url('./src/assets/netflixheroimage.jpg')] perspective-100 shadow-[0px_-30px_50px_rgba(255,255,255,0.1)]">
                 <div className="bg-black/70 absolute inset-0 rounded-3xl shadow-inner shadow-[rgba(255,255,255,0.5)]"></div>
                 <div className="relative z-10 md:max-w-2xl">
                     <h1 className="md:text-6xl text-5xl font-bold">Unlimited movies, TV shows, and more</h1>
