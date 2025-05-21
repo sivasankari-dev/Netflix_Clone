@@ -1,0 +1,12 @@
+
+@import "tailwindcss";
+
+@theme{
+  --color-customblue: rgb(100, 108, 255);
+}
+
+@layer utilities {
+  .perspective-100 {
+    perspective: 100px;
+  }
+}
